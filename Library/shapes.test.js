@@ -11,5 +11,21 @@ describe('Circle', () => {
 });
 
 // Triangle
+describe('Triangle', () => {
+    test ('Triangle renders correctly', () => {
+        const shape = new Triangle()
+        var color = ('red')
+        shape.setColor ('color')
+        expect (shape.render()).toEqual(`<polygon height="100%" width="100%" points="200,50 70,275 330,275" fill="${color}"/>`)
+    });
+});
 
 // Square
+describe('Square', () => {
+    test ('Square renders correctly', () => {
+        const shape = new Square()
+        var color = ('blue')
+        shape.setColor ('color')
+        expect (shape.render()).toEqual(`<rect width="400" height="400" fill="${color}"/>`)
+    });
+});
