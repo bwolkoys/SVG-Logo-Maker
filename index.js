@@ -4,7 +4,7 @@ const { Circle, Triangle, Square } = require("./Library/shapes");
 const { error } = require('console');
 
 inquirer
-    .promt ([
+    .prompt ([
         {
             type: 'input',
             message: 'enter up to three characters',
@@ -45,7 +45,7 @@ inquirer
             });
         } else {
             const square = new Square(response.characters, response.textColor, response.shapeColor)
-            fs.writeFile('./Examples/Logo.svg', triangle.render(), (error) => {
+            fs.writeFile('./Examples/Logo.svg', square.render(), (error) => {
                 if(error) {
                     console.log(error);
                 }
