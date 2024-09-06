@@ -27,7 +27,7 @@ inquirer
             name: 'shapeColor', 
         }
     ])
-    
+
     .then((response) => {
         if(response.shape === 'Circle') {
             const square = new Square(response.characters, response.textColor, response.shapeColor)
@@ -36,5 +36,23 @@ inquirer
                     console.log(error);
                 }
             });
+        } else if(response.shape === 'Triangle') {
+            const triangle = new Triangle(response.characters, response.textColor, response.shapeColor)
+            fs.writeFile('./Examples/Logo.svg', triangle.render(), (error) => {
+                if(error) {
+                    console.log(error);
+                }
+            });
+        } else {
+            const square = new Square(response.characters, response.textColor, response.shapeColor)
+            fs.writeFile('./Examples/Logo.svg', triangle.render(), (error) => {
+                if(error) {
+                    console.log(error);
+                }
+            });
         }
     })
+
+    .then(() => {
+        return console.log("generated the Logo.svg");
+    });
