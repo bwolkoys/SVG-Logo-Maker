@@ -36,3 +36,5 @@ AND the output text "Generated logo.svg" is printed in the command line
 - svg square: https://www.w3schools.com/graphics/svg_rect.asp 
 
 ## Demo Video
+
+- Link to Demo: https://drive.google.com/file/d/1s7VR8ZJeM1jpMyn9hptZiCW2gdCUYsPF/view?usp=sharing 
