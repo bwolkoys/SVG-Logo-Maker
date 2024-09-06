@@ -18,7 +18,7 @@ inquirer
         {
             type: 'list',
             message: 'pick a shape below',
-            choices: [{name: 'Circle', name: 'Triangle', name: 'Square'}],
+            choices: ['Circle', 'Triangle', 'Square'],
             name: 'shape',
         },
         {
@@ -30,7 +30,7 @@ inquirer
 
     .then((response) => {
         if(response.shape === 'Circle') {
-            const square = new Square(response.characters, response.textColor, response.shapeColor)
+            const circle = new Circle(response.characters, response.textColor, response.shapeColor)
             fs.writeFile('./Examples/Logo.svg', circle.render(), (error) => {
                 if(error) {
                     console.log(error);

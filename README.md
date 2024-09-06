@@ -27,4 +27,7 @@ AND the output text "Generated logo.svg" is printed in the command line
 
 ## Resources 
 
+- To help with inquirer.prompt: https://www.npmjs.com/package/inquirer 
+- To help with the choices for the shapes: https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts 
+
 ## Demo Video
