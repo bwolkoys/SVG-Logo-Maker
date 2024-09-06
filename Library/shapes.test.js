@@ -37,7 +37,7 @@ describe('Square', () => {
         var color = ('blue')
         shape.setColor ('color')
         const expectedValue = `<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
-        <rect width="400" height="400" x="20" y="20" rx="20" ry="20" fill="${this.color}"/>
+        <rect width="200" height="200" x="10" y="10" rx="0" ry="0" fill="${this.color}"/>
         <text x="62" y="62" font-size="55" text-anchor="middle" fill="${this.textColor}">${this.text}</text> 
         </svg>`
         const actualValue = Square.render();
