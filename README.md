@@ -34,6 +34,8 @@ AND the output text "Generated logo.svg" is printed in the command line
 - svg circle: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started 
 - svg triangle: https://www.w3schools.com/graphics/svg_polygon.asp 
 - svg square: https://www.w3schools.com/graphics/svg_rect.asp 
+- help with class extends for the shapes: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends 
+- if else statement help: https://www.w3schools.com/js/js_if_else.asp 
 
 ## Demo Video
 
