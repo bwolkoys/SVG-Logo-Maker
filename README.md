@@ -22,8 +22,10 @@ AND the output text "Generated logo.svg" is printed in the command line
 - THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Description 
+- I have created a logo generator where you can input the information into the command line and it will generate a logo. Logo's are used in every business, it's what sets your brand apart (visually). This application allows you to creater a logo by entering in up to 3 characters, picking a shape and the text color and shape color. 
 
 ## Usage Instructions
+- have to open the integrated terminal for Index.js, then type in the command line "node index" and answer the following 4 questions. Once all questions are answers you can open the logo.svg file with the code. Right click the file and hit "reveal in finder": this will show your created logo.
 
 ## Resources 
 
