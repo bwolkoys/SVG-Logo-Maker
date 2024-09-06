@@ -1,4 +1,4 @@
-<svg height="220" width="500" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="100,10 150,190 50,190" fill="pink"/>
-        <text x="200" y="165" font-size="50" text-anchor="middle" fill="blue">bnw</text>
+<svg height="200" width="300" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="200,50 70,275 330,275" fill="yellow"/>
+        <text x="200" y="165" font-size="50" text-anchor="middle" fill="red">bnw</text>
         </svg>

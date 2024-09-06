@@ -19,8 +19,8 @@ class Circle extends Shape {
 //Triangle
 class Triangle extends Shape {
     render () {
-        return `<svg height="220" width="500" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="100,10 150,190 50,190" fill="${this.color}"/>
+        return `<svg height="200" width="300" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="200,50 70,275 330,275" fill="${this.color}"/>
         <text x="200" y="165" font-size="50" text-anchor="middle" fill="${this.textColor}">${this.text}</text>
         </svg>`
     }
